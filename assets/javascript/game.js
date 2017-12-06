@@ -46,37 +46,36 @@ var displayToBrowser = function () {
 	document.getElementById("letters").innerHTML = incorrect;
 }
 
+// Reset game
+var reset = function () {
+	currentPuzzle = [];
+	incorrect = [];
+	guessesRemaining = 10;
+}
+
+// Computer randomly generates word from words array
+var generateWord = function () {
+	currentWord = words[Math.floor(Math.random() * words.length)];
+	letters = currentWord.split("");
+}
 
 
 // Create Hangman puzzle
 var start = function () {
-	currentWord = "";
-	currentWord = words[Math.floor(Math.random() * words.length)];
-	displayToBrowser();
-	letters = currentWord.split("");
-	console.log(currentWord);
 
+	reset();
+	generateWord();
 
 	for (var i = 0; i < letters.length; i++) {
-			// if (letters[i] === " ") {
-			// 	currentPuzzle.push("&nbsp;");
-			// } else {
-			// 	currentPuzzle.push("__ ");
-			// }
 
 			if (alphabetLetters.indexOf(letters[i]) > -1) {
 				currentPuzzle.push("__ ")
 			} else {
-				// display "/" so user can distinguish number of words
+				// display "/" so user can distinguish space between words in puzzle
 				currentPuzzle.push(letters[i]);
 			}
 
 	}
-
-	// Reset incorrect guesses array and guessesRemaining
-	incorrect = [];
-	guessesRemaining = 10;
-
 
 	displayToBrowser();
 }
@@ -149,7 +148,7 @@ document.onkeypress = function(event) {
   checkGuess();
   console.log(incorrect)
   rounds();
-  console.log(currentPuzzle.join());
+  console.log(currentPuzzle.join(""));
   console.log(currentWord);
 };
 
