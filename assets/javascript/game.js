@@ -150,7 +150,7 @@ var play = function () {
 	if (currentWord === "friends") {
 		var audio = "<audio autoplay = 'autoplay' >" + "<source src='assets/audio/friends.mp3' type='audio/mpeg'></audio>";
 		document.querySelector("#audio").innerHTML = audio;
-		var picture = "<img src='assets/images/friends.jpeg' alt=''>";
+		var picture = "<img src='https://esiddi4.github.io/Hangman-Game/assets/images/friends.jpeg' alt=''>";
 		document.querySelector("#picture").innerHTML = picture;
 		start();
 	} 
@@ -158,7 +158,7 @@ var play = function () {
 	else if (currentWord === "the/fresh/prince/of/belair") {
 		var audio = "<audio autoplay = 'autoplay' >" + "<source src='assets/audio/freshprince.mp3' type='audio/mpeg'></audio>";
 		document.querySelector("#audio").innerHTML = audio;
-		var picture = "<img src='assets/images/freshprince.jpeg' alt=''>";
+		var picture = "<img src='https://esiddi4.github.io/Hangman-Game/assets/images/freshprince.jpeg' alt=''>";
 		document.querySelector("#picture").innerHTML = picture;
 		start();
 	} 
@@ -166,7 +166,7 @@ var play = function () {
 	else if (currentWord === "the/simpsons") {
 		var audio = "<audio autoplay = 'autoplay' >" + "<source src='assets/audio/simpsons.mp3' type='audio/mpeg'></audio>";
 		document.querySelector("#audio").innerHTML = audio;
-		var picture = "<img src='assets/images/simpsons.jpeg' alt=''>";
+		var picture = "<img src='https://esiddi4.github.io/Hangman-Game/assets/images/simpsons.jpeg' alt=''>";
 		document.querySelector("#picture").innerHTML = picture;
 		start();
 	} 
@@ -174,7 +174,7 @@ var play = function () {
 	else if (currentWord === "animaniacs") {
 		var audio = "<audio autoplay = 'autoplay' >" + "<source src='assets/audio/animaniacs.mp3' type='audio/mpeg'></audio>";
 		document.querySelector("#audio").innerHTML = audio;
-		var picture = "<img src='assets/images/animaniacs.jpeg' alt=''>";
+		var picture = "<img src='https://esiddi4.github.io/Hangman-Game/assets/images/animaniacs.jpeg' alt=''>";
 		document.querySelector("#picture").innerHTML = picture;
 		start();
 	} 
@@ -182,7 +182,7 @@ var play = function () {
 	else if (currentWord === "home/improvement") {
 		var audio = "<audio autoplay = 'autoplay' >" + "<source src='assets/audio/homeimprovement.mp3' type='audio/mpeg'></audio>";
 		document.querySelector("#audio").innerHTML = audio;
-		var picture = "<img src='assets/images/homeimprovement.jpeg' alt=''>";
+		var picture = "<img src='https://esiddi4.github.io/Hangman-Game/assets/images/homeimprovement.jpeg' alt=''>";
 		document.querySelector("#picture").innerHTML = picture;
 		start();
 	} 
@@ -190,7 +190,7 @@ var play = function () {
 	else if (currentWord === "buffy/the/vampire/slayer") {
 		var audio = "<audio autoplay = 'autoplay' >" + "<source src='assets/audio/buffy.mp3' type='audio/mpeg'></audio>";
 		document.querySelector("#audio").innerHTML = audio;
-		var picture = "<img src='assets/images/buffy.jpeg' alt=''>";
+		var picture = "<img src='https://esiddi4.github.io/Hangman-Game/assets/images/buffy.jpeg' alt=''>";
 		document.querySelector("#picture").innerHTML = picture;
 		start();
 	} 
@@ -198,7 +198,7 @@ var play = function () {
 	else if (currentWord === "rugrats") {
 		var audio = "<audio autoplay = 'autoplay' >" + "<source src='assets/audio/rugrats.mp3' type='audio/mpeg'></audio>";
 		document.querySelector("#audio").innerHTML = audio;
-		var picture = "<img src='assets/images/rugrats.jpeg' alt=''>";
+		var picture = "<img src='https://esiddi4.github.io/Hangman-Game/assets/images/rugrats.jpeg' alt=''>";
 		document.querySelector("#picture").innerHTML = picture;
 		start();
 	} 
@@ -206,7 +206,7 @@ var play = function () {
 	else if (currentWord === "full/house") {
 		var audio = "<audio autoplay = 'autoplay' >" + "<source src='assets/audio/fullhouse.mp3' type='audio/mpeg'></audio>";
 		document.querySelector("#audio").innerHTML = audio;
-		var picture = "<img src='assets/images/fullhouse.jpeg' alt=''>";
+		var picture = "<img src='https://esiddi4.github.io/Hangman-Game/assets/images/fullhouse.jpeg' alt=''>";
 		document.querySelector("#picture").innerHTML = picture;
 		start();
 	} 
@@ -214,7 +214,7 @@ var play = function () {
 	else if (currentWord === "saved/by/the/bell") {
 		var audio = "<audio autoplay = 'autoplay' >" + "<source src='assets/audio/savedbythebell.mp3' type='audio/mpeg'></audio>";
 		document.querySelector("#audio").innerHTML = audio;
-		var picture = "<img src='assets/images/savedbythebell.jpeg' alt=''>";
+		var picture = "<img src='https://esiddi4.github.io/Hangman-Game/assets/images/savedbythebell.jpeg' alt=''>";
 		document.querySelector("#picture").innerHTML = picture;
 		start();
 	} 
@@ -222,7 +222,7 @@ var play = function () {
 	else if (currentWord === "sabrina/the/teenage/witch") {
 		var audio = "<audio autoplay = 'autoplay' >" + "<source src='assets/audio/sabrina.mp3' type='audio/mpeg'></audio>";
 		document.querySelector("#audio").innerHTML = audio;
-		var picture = "<img src='assets/images/sabrina.jpeg' alt=''>";
+		var picture = "<img src='https://esiddi4.github.io/Hangman-Game/assets/images/sabrina.jpeg' alt=''>";
 		document.querySelector("#picture").innerHTML = picture;
 		start();
 	} 
@@ -230,7 +230,7 @@ var play = function () {
 	else if (currentWord === "everybody/loves/raymond") {
 		var audio = "<audio autoplay = 'autoplay' >" + "<source src='assets/audio/raymond.mp3' type='audio/mpeg'></audio>";
 		document.querySelector("#audio").innerHTML = audio;
-		var picture = "<img src='assets/images/raymond.jpeg' alt=''>";
+		var picture = "<img src='https://esiddi4.github.io/Hangman-Game/assets/images/raymond.jpeg' alt=''>";
 		document.querySelector("#picture").innerHTML = picture;
 		start();
 	} 
@@ -238,7 +238,7 @@ var play = function () {
 	else if (currentWord === "seinfeld") {
 		var audio = "<audio autoplay = 'autoplay' >" + "<source src='assets/audio/seinfeld.mp3' type='audio/mpeg'></audio>";
 		document.querySelector("#audio").innerHTML = audio;
-		var picture = "<img src='assets/images/seinfeld.jpeg' alt=''>";
+		var picture = "<img src='https://esiddi4.github.io/Hangman-Game/assets/images/seinfeld.jpeg' alt=''>";
 		document.querySelector("#picture").innerHTML = picture;
 		start();
 	} 
@@ -246,7 +246,7 @@ var play = function () {
 	else if (currentWord === "hey/arnold") {
 		var audio = "<audio autoplay = 'autoplay' >" + "<source src='assets/audio/arnold.mp3' type='audio/mpeg'></audio>";
 		document.querySelector("#audio").innerHTML = audio;
-		var picture = "<img src='assets/images/arnold.jpeg' alt=''>";
+		var picture = "<img src='https://esiddi4.github.io/Hangman-Game/assets/images/arnold.jpeg' alt=''>";
 		document.querySelector("#picture").innerHTML = picture;
 		start();
 	} 
@@ -254,7 +254,7 @@ var play = function () {
 	else if (currentWord === "pinky/and/the/brain") {
 		var audio = "<audio autoplay = 'autoplay' >" + "<source src='assets/audio/pinkyandthebrain.mp3' type='audio/mpeg'></audio>";
 		document.querySelector("#audio").innerHTML = audio;
-		var picture = "<img src='assets/images/pinkyandthebrain.jpeg' alt=''>";
+		var picture = "<img src='https://esiddi4.github.io/Hangman-Game/assets/images/pinkyandthebrain.jpeg' alt=''>";
 		document.querySelector("#picture").innerHTML = picture;
 		start();
 	} 
@@ -262,7 +262,7 @@ var play = function () {
 	else if (currentWord === "boy/meets/world") {
 		var audio = "<audio autoplay = 'autoplay' >" + "<source src='assets/audio/boymeetsworld.mp3' type='audio/mpeg'></audio>";
 		document.querySelector("#audio").innerHTML = audio;
-		var picture = "<img src='assets/images/boymeetsworld.jpeg' alt=''>";
+		var picture = "<img src='https://esiddi4.github.io/Hangman-Game/assets/images/boymeetsworld.jpeg' alt=''>";
 		document.querySelector("#picture").innerHTML = picture;
 		start();
 	} 
@@ -270,7 +270,7 @@ var play = function () {
 	else if (currentWord === "family/matters") {
 		var audio = "<audio autoplay = 'autoplay' >" + "<source src='assets/audio/familymatters.mp3' type='audio/mpeg'></audio>";
 		document.querySelector("#audio").innerHTML = audio;
-		var picture = "<img src='assets/images/familymatters.jpeg' alt=''>";
+		var picture = "<img src='https://esiddi4.github.io/Hangman-Game/assets/images/familymatters.jpeg' alt=''>";
 		document.querySelector("#picture").innerHTML = picture;
 		start();
 	}
