@@ -144,6 +144,11 @@ document.onkeypress = function(event) {
 
 
 
+
+
+
+
+
 // Display image and queue audio
 var play = function () {
 
@@ -246,7 +251,7 @@ var play = function () {
 	else if (currentWord === "hey/arnold") {
 		var audio = "<audio autoplay = 'autoplay' >" + "<source src='assets/audio/arnold.mp3' type='audio/mpeg'></audio>";
 		document.querySelector("#audio").innerHTML = audio;
-		var picture = "<img src='https://esiddi4.github.io/Hangman-Game/assets/images/arnold.jpeg' alt=''>";
+		var picture = "<img src='https://esiddi4.github.io/Hangman-Game/assets/images/heyarnold.jpeg' alt=''>";
 		document.querySelector("#picture").innerHTML = picture;
 		start();
 	} 
