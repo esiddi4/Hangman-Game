@@ -11,8 +11,6 @@
 	<link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
 
-	<!-- LINK TO JAVASCRIPT -->
-
 	<!-- LINK TO JQUERY -->
 </head>
 <body>
@@ -22,19 +20,21 @@
 		<h2>90s TV EDITION</h2>
 	</div>
 
-	<div id="image">
-	</div>
-
 	<div id="game">
-		<h3>Press any key to get started!</h3>
+		<div id="audio"></div>
+		<div id="picture"></div>
 
-		<h3>Wins: <span id="wins"></span></h3>
+		<div id="gameDisplay">
+			<h3>Press any key to get started!</h3>
 
-		<h3>Current Word: <div id="word"></div></h3>
+			<h3>Wins: <span id="wins"></span></h3>
 
-		<h3>Number of Guesses Remaining: <span id="guesses"></span></h3>
+			<h3>Current Word: <div id="word"></div></h3>
 
-		<h3>Letters Already Guessed: <div id="letters"></div></h3>
+			<h3>Number of Guesses Remaining: <span id="guesses"></span></h3>
+
+			<h3>Letters Already Guessed: <div id="letters"></div></h3>
+		</div>
 	</div>
 
 <!--
@@ -56,5 +56,8 @@
 9. After the user wins/loses the game should automatically choose another word and make the user play it. -->
 
 </body>
-<script type="text/javascript" src="assets/javascript/game.js"></script>
+
+	<!-- LINK TO JAVASCRIPT -->
+	<script type="text/javascript" src="assets/javascript/game.js"></script>
+
 </html>

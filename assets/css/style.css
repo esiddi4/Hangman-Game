@@ -29,7 +29,12 @@ html {
 	border: solid #000 5px;
 }
 
-#game h3 {
+#picture img {
+    display: block;
+    margin: 0 auto;
+}
+
+#gameDisplay h3 {
 	font-family: 'Press Start 2P', cursive;
 	text-align: center;
 	line-height: 175%;
